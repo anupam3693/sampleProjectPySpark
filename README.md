@@ -23,6 +23,7 @@ PySparkApp
 14. Production Deployment pipline can be triggered manually or after a approval trigger code. 
 15. For Batch Pipeline - Once can deploy the tested code on the respective directory for the existing AWS host services like EMR.
 16. For Real-time/ API based pipline, you may want to follow Blue Green Stragy to make the service downtime minimal.
+17. For Test Strategy can use Lambda Function which will call existing functions from Glue or Lambda having the code with sample data sets to test upon.
 
 
 
